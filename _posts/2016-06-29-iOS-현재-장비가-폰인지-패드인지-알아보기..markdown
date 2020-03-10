@@ -5,6 +5,7 @@ date:   2016-06-29 17:04:00 +0900
 categories: dev lagacy
 ---
 UI_USER_INTERFACE_IDIOM() 메서드를 통해 현재 장치가 Phone, Pad, Carplay, TV, Unspecified 임을 구분할 수 있다.
+
 switch 문에서 default가 절대 실행되지 않을 것이란 경고가 뜨는걸로 볼 때 Unspecified가 특정한 장치 혹은 상태를 의미하는 것이 아니라
 위 4가지 장치(Phone, Pad, Carplay, TV) 이외의 모든 경우를 통칭 함을 알 수 있다. (물론 단어자체의 뜻을 따져봐도 그러하다)
 
